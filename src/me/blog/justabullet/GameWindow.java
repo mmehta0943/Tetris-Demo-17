@@ -1,5 +1,6 @@
 package me.blog.justabullet;
 
+import java.awt.Color;
 import java.awt.GridLayout;
 
 import javax.swing.JFrame;
@@ -13,9 +14,10 @@ public class GameWindow extends JFrame {
 	private static final long serialVersionUID = 8737819995837542594L;
 
 	public GameWindow() {
-		setTitle("Tetris :D");
+		setTitle("FintechCo Tetris");
 		setSize(400, 814);
 		setResizable(false);
+		getContentPane().setBackground(new Color(20, 25, 40));
 
 		setLayout(new GridLayout(1, 2));
 
